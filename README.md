@@ -9,8 +9,14 @@ Used internally by [JSON Context](https://github.com/mmckegg/json-context) for d
 
 ## Install
 
+With npm:
 ```bash
 $ npm install json-query
+```
+
+With bower:
+```bash
+$ bower install json-query
 ```
 
 ### jsonQuery(query, options)

@@ -2,7 +2,7 @@
   "author": "Matt McKegg <matt@wetsand.co.nz> (http://twitter.com/MattMcKegg)",
   "name": "json-query",
   "description": "Retrieves values from JSON objects for data binding. Offers params, nested queries, deep queries, custom reduce/filter functions and simple boolean logic. Browserify compatible.",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "homepage": "http://github.com/mmckegg/json-query",
   "repository": {
     "type": "git",
@@ -10,11 +10,13 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.js --tap"
+    "test": "tap test/*.js --tap",
+    "build": "node_modules/.bin/webpack"
   },
   "devDependencies": {
+    "es5-shim": "~2.1.0",
     "tape": "*",
-    "es5-shim": "~2.1.0"
+    "webpack": "^1.7.3"
   },
   "optionalDependencies": {},
   "engines": {

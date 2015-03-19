@@ -1,0 +1,30 @@
+{
+  "name": "json-query",
+  "main": "dist/json-query.js",
+  "version": "1.4.1",
+  "homepage": "https://github.com/mmckegg/json-query",
+  "authors": [
+    "Matt McKegg <matt@wetsand.co.nz> (http://twitter.com/MattMcKegg)"
+  ],
+  "description": "Retrieves values from JSON objects for data binding. Offers params, nested queries, deep queries, custom reduce/filter functions and simple boolean logic. Browserify compatible.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "data",
+    "binding",
+    "filter",
+    "json",
+    "query"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
